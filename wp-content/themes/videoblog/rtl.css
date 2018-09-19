@@ -1,0 +1,367 @@
+/*
+Theme Name: Videoblog
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+blockquote {
+	border-right: 4px solid #e9b330;
+	border-left: none;
+	padding-right: 1em;
+	padding-left: 0;
+}
+
+li > ul,
+li > ol {
+	margin-right: 0;
+	padding: 0 24px 0 0;
+}
+
+/******************************************
+1. General
+******************************************/
+
+.wrapper {
+	text-align: right; 
+}
+
+/******************************************
+2. Header
+******************************************/
+
+.site-header .site-branding {
+	display: inline;
+	float: right;
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+#menu-secondary .menu-item {
+	margin-right: 15px;
+	margin-left: 0;
+}
+
+/******************************************
+3. Nav
+******************************************/
+
+.sf-menu li {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.sf-menu ul li {
+	text-align: right;
+}
+
+/*** arrows (for all except IE7) **/
+.sf-arrows .sf-with-ul {
+	padding-right: 0;
+	padding-left: 1.75em;
+	*padding-right: 0; /* no CSS arrows for IE7 (lack pseudo-elements) */
+	*padding-left: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+}
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
+	right: auto;
+	left: 0.6em;
+}
+
+/******************************************
+4. Main Content Sections
+******************************************/
+
+#site-content {
+	float: right;
+}
+
+.wrapper-reversed #site-content {
+	float: left;
+}
+
+#site-aside {
+	float: right;
+}
+
+/******************************************
+5. Individual Content Sections
+******************************************/
+
+#ilovewp-featured-posts .featured-post-simple {
+	float: right;
+}
+
+#ilovewp-featured-posts .featured-post-simple-1 .ilovewp-post-wrapper,
+#ilovewp-featured-posts .featured-post-simple-2 .ilovewp-post-wrapper {
+	padding-right: 0;
+	padding-left: 15px;
+}
+
+#ilovewp-featured-posts .featured-post-simple .post-meta-category,
+.ilovewp-post-archive .post-meta-category {
+	left: auto;
+	right: 10px;
+}
+
+.post-meta .sticky-post {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/* Columns */
+
+.ilovewp-columns .ilovewp-column {
+	float: right;
+}
+
+.ilovewp-columns-2 .ilovewp-column-1 .ilovewp-column-wrapper,
+.featured-category-layout-2 .ilovewp-columns-2 .ilovewp-column-2 .ilovewp-column-wrapper {
+	padding-right: 0;
+	padding-left: 40px;
+}
+
+/* Featured Category Widget */
+
+.featured-category-layout-2 .ilovewp-columns .ilovewp-column {
+	float: left;
+}
+
+.featured-category-layout-2 .ilovewp-columns-2 .ilovewp-column-1 .ilovewp-column-wrapper {
+	padding-left: 0;
+}
+
+/* Posts Archive Loop */
+
+.ilovewp-posts-archive .post-meta .entry-date {
+	margin-right: 0;
+	margin-left: 12px;
+}
+
+.ilovewp-posts-archive .post-cover-wrapper {
+	float: right;
+}
+
+.ilovewp-posts-archive .post-cover {
+	margin-right: 0;
+	margin-left: 40px;
+}
+
+/******************************************
+6. Single Post/Page Styling
+******************************************/
+
+.ilovewp-archive-intro {
+	text-align: right;
+}
+
+.post-single blockquote {
+    border-right: solid 4px #f4ce21;
+    border-left-width: 0;
+}
+
+.post-single ul,
+.post-single ol {
+	margin: 0 1.25em 1.75em 0;
+}
+
+/******************************************
+7. Comments
+******************************************/
+
+.comments-area {
+	margin: 3em 0 0;
+	text-align: right;
+}
+
+.page .comments-area {
+	margin-right: 0;
+}
+
+.children .comment {
+	border-right: 5px solid #e7e7e7;
+	border-left-width: 0;
+	padding-right: 24px;
+	padding-left: 0;
+}
+
+.comment-author .avatar {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.comment-meta .fn {
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.comment-tools {
+	float: left;
+}
+
+.comment-reply-link {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.comment-respond {
+	padding-right: 0;
+	padding-left: 20px;
+}
+
+/******************************************
+8. Footer
+******************************************/
+
+.site-footer {
+	text-align: left;
+}
+
+/******************************************
+9. Miscellaneous
+******************************************/
+
+.error-404 .post-single .post-date {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+/* WordPress Search Widget */
+
+#searchsubmit {
+	float: right;
+}
+
+/******************************************
+13. Media Queries (Responsive Feature)
+******************************************/
+ 
+/* Tablet Landscape */
+@media screen and (max-width: 960px) {
+
+	div.wrapper {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
+	div.wrapper-main {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	.site-content-wrapper,
+	.site-aside-wrapper {
+		padding: 25px;
+	}
+	
+	.comment-respond {
+		padding-left: 0;
+	}
+	
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+
+	#ilovewp-featured-posts .featured-post-simple .post-meta-category, 
+	.ilovewp-post-archive .post-meta-category {
+		right: auto;
+		left: auto;
+	}
+
+	.ilovewp-columns-2 .ilovewp-column-1 .ilovewp-column-wrapper, 
+	.featured-category-layout-2 .ilovewp-columns-2 .ilovewp-column-2 .ilovewp-column-wrapper {
+		padding-right: auto;
+		padding-left: 20px;
+	}
+	
+	.ilovewp-posts-archive .post-cover {
+		margin-right: 0;
+		margin-left: 20px;
+	}
+	
+	/* Main Menu */
+
+	.navbar-toggle { float: left; margin-right: 0; margin-left: 30px; }
+	.btn_menu_icons { float: right; }
+	.btn_menu_span {
+		float: right;
+		line-height: 1.5em;
+		margin-right: 15px;
+		margin-left: 0;
+	}
+
+	.sf-arrows .sf-with-ul {
+		padding-left: 10px;
+	}
+	
+	.sf-menu ul ul {
+		right: auto;
+		left: auto;
+		top: auto;
+	}
+	
+	/* End Main Menu */
+	
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 640px) {
+
+	#site-content,
+	#site-aside {
+		float: none;
+	}
+	
+	.site-header .wrapper-header,
+	.wrapper-footer {
+		text-align: center;
+	}
+	
+	.site-header .site-branding,
+	#menu-secondary,
+	.wrapper-footer {
+		float: none;
+		margin-left: auto;
+	}
+	
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 320px) {
+
+	#ilovewp-featured-posts .featured-post-simple-1 .ilovewp-post-wrapper, 
+	#ilovewp-featured-posts .featured-post-simple-2 .ilovewp-post-wrapper {
+		padding-left: 0;
+	}
+	
+	.ilovewp-columns .ilovewp-column,
+	.featured-category-layout-2 .ilovewp-columns .ilovewp-column,
+	.ilovewp-posts-archive .post-cover-wrapper {
+		float: none;
+	}
+	
+	.ilovewp-columns-2 .ilovewp-column-1 .ilovewp-column-wrapper, 
+	.featured-category-layout-2 .ilovewp-columns-2 .ilovewp-column-2 .ilovewp-column-wrapper {
+		padding-left: 0;
+	}
+	
+	.ilovewp-posts-archive .post-cover {
+		margin-left: 0;
+	}
+	
+}

@@ -1,0 +1,663 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: eBlog Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-22 11:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: inc/template-tags.php:55 inc/template-tags.php:62
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#: index.php:67 spiderbuzz/widgets/homepage-slider.php:86
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:389
+msgid "14+"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:387
+msgid "14+ Different Widgets Layout"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:388
+msgid "2"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:328
+msgid "3"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:365
+msgid "600+"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:334
+msgid "7"
+msgstr ""
+
+#: index.php:104
+msgid "<"
+msgstr ""
+
+#: index.php:105
+msgid ">"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:36
+#: spiderbuzz/admin/class-eblog-lite-admin.php:115
+msgid "About"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:74
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:485
+msgid "Activate"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:447
+msgid "Active"
+msgstr ""
+
+#: functions.php:127 functions.php:139
+msgid "Add the homepag widget."
+msgstr ""
+
+#: functions.php:116 functions.php:150 functions.php:160 functions.php:170
+#: functions.php:181
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:179
+msgid "Add: Header Add Widget"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:193
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: spiderbuzz/customizer.php:127
+msgid "Archive Page Settings"
+msgstr ""
+
+#: spiderbuzz/customizer.php:128
+msgid "Blog and archive page settings."
+msgstr ""
+
+#: spiderbuzz/customizer.php:325
+msgid "Box Layout"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:381
+msgid "Boxed layout"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:344
+msgid "Category Color Control In Customizer"
+msgstr ""
+
+#: spiderbuzz/customizer.php:177
+msgid "Category Color Settings"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:157
+msgid "Changelog"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:78
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:222
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/content.php:63
+msgid "Continue Reading"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: single.php:80 template-parts/content-search.php:43
+#: template-parts/content.php:48
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-search.php:58
+msgid "Continus reading"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:369
+msgid "Custom Archive Page Layout"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:338
+msgid "Custom Support"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:194
+#: spiderbuzz/admin/class-eblog-lite-admin.php:449
+msgid "Customize"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:332
+msgid "Demo Import"
+msgstr ""
+
+#: spiderbuzz/KCustomizer.php:280
+msgid "Disable"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:92
+msgid "Dismiss"
+msgstr ""
+
+#: spiderbuzz/widgets/grid-post-widget.php:12
+#: spiderbuzz/widgets/sidebar-list.php:12
+msgid "Display Latest Posts."
+msgstr ""
+
+#: spiderbuzz/widgets/homepage-list.php:12
+#: spiderbuzz/widgets/homepage-slider.php:12
+msgid "Display the post slider."
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:137
+#: spiderbuzz/admin/class-eblog-lite-admin.php:198
+#: spiderbuzz/admin/class-eblog-lite-admin.php:200
+msgid "Documentation"
+msgstr ""
+
+#. Name of the theme
+#: spiderbuzz/admin/class-eblog-lite-admin.php:319
+msgid "eBlog Lite"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"eBlog Lite is modern, clean, colorful and responsive blog theme. It can be "
+"used for blogs, informative, news and other creative websites. It uses an "
+"amazing WordPress Customizer for theme options.eBlog Lite Demo: demo."
+"spiderbuzz.com/eblog-lite And  Suppor For: spiderbuzz.com"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:140
+#: spiderbuzz/admin/class-eblog-lite-admin.php:320
+msgid "eBlog Lite Pro"
+msgstr ""
+
+#: spiderbuzz/customizer.php:307
+msgid "Eblog Lite Theme Layout"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/grid-post-widget.php:11
+msgid "eBlog Lite: Grids View"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/sidebar-list.php:11
+msgid "eBlog Lite: List View"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/homepage-slider.php:11
+msgid "eBlog Lite: Slider Section"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:115 template-parts/content-page.php:33
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:356
+msgid "Edit The Footer Copyright Text"
+msgstr ""
+
+#: spiderbuzz/customizer.php:230
+msgid "Enabel"
+msgstr ""
+
+#: spiderbuzz/KCustomizer.php:279
+msgid "Enable"
+msgstr ""
+
+#: spiderbuzz/customizer.php:116
+msgid "Enable Category"
+msgstr ""
+
+#: spiderbuzz/customizer.php:117
+msgid "Enable Category Section."
+msgstr ""
+
+#: spiderbuzz/widgets/grid-post-widget.php:44
+#: spiderbuzz/widgets/homepage-list.php:42
+msgid "Enable Header Section"
+msgstr ""
+
+#: spiderbuzz/customizer.php:86
+msgid "Enable Related Post"
+msgstr ""
+
+#: spiderbuzz/customizer.php:103
+msgid "Enable Slider Display"
+msgstr ""
+
+#: spiderbuzz/customizer.php:85
+msgid "Enable Viewes Display"
+msgstr ""
+
+#: spiderbuzz/customizer.php:149
+msgid "Exclusive"
+msgstr ""
+
+#: spiderbuzz/customizer.php:239
+msgid "Facebook URL"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:318
+msgid "Features"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:363
+msgid "Fonts , Fonts Size , Text Color"
+msgstr ""
+
+#: functions.php:148
+msgid "Footer: First Widget"
+msgstr ""
+
+#: functions.php:158
+msgid "Footer: Second Widget"
+msgstr ""
+
+#: functions.php:168
+msgid "Footer: Third Widget"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:149
+msgid "Free Vs Pro"
+msgstr ""
+
+#: spiderbuzz/customizer.php:324
+msgid "Full Width"
+msgstr ""
+
+#: functions.php:125
+msgid "Fullwidth: Homepage"
+msgstr ""
+
+#: spiderbuzz/customizer.php:58 spiderbuzz/customizer.php:73
+msgid "General Settings"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:95
+msgid "Get started with eBlog Lite"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:242
+msgid "Go to Dashboard"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:242
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: spiderbuzz/customizer.php:248
+msgid "Google Plus"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:204
+msgid "Got theme support question?"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:326
+msgid "Header Mega Menu"
+msgstr ""
+
+#. Name of the template
+msgid "Home page"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:375
+msgid "Homepage Template"
+msgstr ""
+
+#: functions.php:137
+msgid "Homepage With Sidebar"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/homepage-list.php:11
+msgid "Homepage: List Layout"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://spiderbuzz.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://spiderbuzz.com/wordpress-themes/eblog-lite"
+msgstr ""
+
+#: footer.php:41
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: spiderbuzz/customizer.php:148
+msgid "Inclusive"
+msgstr ""
+
+#: spiderbuzz/customizer.php:144
+msgid "Inclusive And Exclusive Slider Post."
+msgstr ""
+
+#: spiderbuzz/customizer.php:284
+msgid "Instagram URL"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:494
+msgid "Install Now"
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:98
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: spiderbuzz/customizer.php:275
+msgid "Linkedin URL"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:497
+msgid "Live Preview"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:153
+msgid "More Themes"
+msgstr ""
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:210
+msgid "Need more features?"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: spiderbuzz/customizer.php:165
+msgid "Number of Post Slider"
+msgstr ""
+
+#: spiderbuzz/widgets/grid-post-widget.php:39
+#: spiderbuzz/widgets/homepage-list.php:37
+#: spiderbuzz/widgets/homepage-slider.php:31
+#: spiderbuzz/widgets/sidebar-list.php:36
+msgid "Number of posts:"
+msgstr ""
+
+#. 1: title.
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: single.php:91 template-parts/content-page.php:20
+#: template-parts/content-search.php:54 template-parts/content.php:59
+msgid "Pages:"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:205
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:199
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:35 inc/template-tags.php:85
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29 inc/template-tags.php:79
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: functions.php:39
+msgid "Primary"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: footer.php:43
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: single.php:99
+msgid "Related Posts"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:239
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:239
+msgid "Return to Updates"
+msgstr ""
+
+#: spiderbuzz/customizer.php:266
+msgid "RSS URL"
+msgstr ""
+
+#. %s: search query.
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: spiderbuzz/widgets/grid-post-widget.php:34
+#: spiderbuzz/widgets/homepage-list.php:33
+#: spiderbuzz/widgets/homepage-slider.php:27
+#: spiderbuzz/widgets/sidebar-list.php:32
+msgid "Select a post category:"
+msgstr ""
+
+#: spiderbuzz/customizer.php:322
+msgid "Select Theme Layout."
+msgstr ""
+
+#: functions.php:114
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: spiderbuzz/customizer.php:219
+msgid "Social Links"
+msgstr ""
+
+#: template-parts/content-none.php:36
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Author of the theme
+msgid "spiderbuzz"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:206
+msgid "Support"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:393
+msgid "Theme Color Control in Customizer"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:192
+msgid "Theme Customizer"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:131
+msgid "Theme Demo"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:134
+msgid "Theme Details"
+msgstr ""
+
+#: spiderbuzz/customizer.php:74
+msgid "Theme General Settings"
+msgstr ""
+
+#: spiderbuzz/customizer.php:306 spiderbuzz/customizer.php:321
+msgid "Theme Layout"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:48
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: spiderbuzz/widgets/grid-post-widget.php:30
+#: spiderbuzz/widgets/homepage-list.php:29
+#: spiderbuzz/widgets/sidebar-list.php:28
+msgid "Title:"
+msgstr ""
+
+#: header.php:71
+msgid "Toggle navigation"
+msgstr ""
+
+#: functions.php:40
+msgid "Top Bar Menu"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:218
+#: spiderbuzz/admin/class-eblog-lite-admin.php:226
+msgid "Translate"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:50
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: spiderbuzz/customizer.php:257
+msgid "Twitter URL"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:211
+#: spiderbuzz/admin/class-eblog-lite-admin.php:313
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: spiderbuzz/widgets/grid-post-widget.php:95
+#: spiderbuzz/widgets/homepage-list.php:90
+#: spiderbuzz/widgets/sidebar-list.php:83
+msgid "View All"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:260
+msgid "View changelog below:"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:402
+msgid "View Pro"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:212
+msgid "View PRO version"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:350
+msgid "Viewer Counter  Options"
+msgstr ""
+
+#: spiderbuzz/admin/class-eblog-lite-admin.php:93
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing this theme! To fully take advantage of the "
+"best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr ""

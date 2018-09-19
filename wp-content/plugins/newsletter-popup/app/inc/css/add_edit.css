@@ -1,0 +1,182 @@
+	p, h3 { 
+				margin-bottom:15px;
+			}
+
+			.tabs li {
+				list-style:none;
+				display:inline;
+			}
+
+			.tabs a {
+				padding:10px 10px;
+				display:inline-block;
+				background:#7f8c8d;
+				color:#fff;
+				text-decoration:none;
+			}
+			.subtabs a {
+				background:#27ae60;
+			}
+			.subtabs.tabs a.active {
+				background:#fff;
+				color:#000;
+				border: 1px solid #27ae60;
+			}
+
+			.tabs a.active {
+				background:#fff;
+				color:#000;
+				border: 1px solid #7f8c8d;
+			}
+			.some_rules
+			{
+				padding:10px;
+				background:#FFF;
+			}
+.switch {
+    display: inline-block;
+    height: 26px;
+    position: relative;
+    width: 60px;
+}
+.switch input {
+    display: none;
+}
+.slider {
+    background-color: #cccccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.4s ease 0s;
+}
+.slider::before {
+    background-color: #ffffff;
+    bottom: 4px;
+    content: "";
+    height: 18px;
+    left: 9px;
+    position: absolute;
+    transition: all 0.4s ease 0s;
+    width: 18px;
+}
+input:checked + .slider {
+    background-color: #27ae60;
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .slider::before {
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+.slider.round::before {
+    border-radius: 50%;
+}
+.error { color:#F00;}
+.wait { color:#090;}
+table.wp_newsletter-form-table-noborder{width:100%;}
+table.wp_newsletter-form-table-noborder th{ vertical-align:bottom;}
+td.td-heading { font-weight: 700 !important;}
+table.wp_newsletter-form-table-noborder .large-text {
+    width: 100%;
+}
+.wp-core-ui .button-primary {
+    background: #27ae60 !important;
+    border-color: #05833a #05833a #05833a !important;
+    -webkit-box-shadow: 0 1px 0 #008639 !important;
+    box-shadow: 0 1px 0 #27ae60 !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    text-shadow: 0 -1px 1px #27ae60, 1px 0 1px #27ae60, 0 1px 1px #27ae60, -1px 0 1px #27ae60 !important;
+}
+.regular-text {
+    padding: 7px !important;
+}
+.some_rules #general
+{
+	    padding: 10px;
+    box-shadow: 0px 2px 3px 2px #ccc;
+    line-height: 45px;
+    margin: 20px 0;
+	border-bottom: 5px solid #27ae60;
+}
+
+.some_rules #content
+{
+	    padding: 20px;
+    box-shadow: 0px 2px 3px 2px #ccc;
+    line-height: 45px;
+    margin: 20px 0;
+	border-bottom: 5px solid #27ae60;
+}
+
+.some_rules #background
+{
+	    padding: 20px 0;
+    box-shadow: 0px 2px 3px 2px #ccc;
+    line-height: 45px;
+    margin: 20px 0;
+	border-bottom: 5px solid #27ae60;
+}
+
+.some_rules #form
+{
+	    padding:0;
+    box-shadow: 0px 2px 3px 2px #ccc;
+    line-height: 45px;
+    margin: 20px 0;
+	border-bottom: 5px solid #27ae60;
+}
+
+.some_rules #form h3 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 10px;
+    border-top: #ccc solid 1px;
+    color: #fff;
+    background: #27ae60;
+}
+.wp-core-ui .button, .wp-core-ui .button-secondary
+{
+	vertical-align:middle !important;
+}
+#wp_newsletter-popup-overlayclose, input[type=checkbox]
+{
+	margin-left:5px !important;
+}
+.some_rules.action
+{
+	  padding:0;
+    box-shadow: 0px 2px 3px 2px #ccc;
+    line-height: 45px;
+    margin: 20px 0;
+	border-bottom: 5px solid #27ae60;
+}
+.some_rules.email-service
+{
+	  padding:5px 15px;
+    box-shadow: 0px 2px 3px 2px #ccc;
+    line-height: 45px;
+    margin: 20px 0;
+	border-bottom: 5px solid #27ae60;
+}
+.some_rules.action h3 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 10px;
+    border-top: #ccc solid 1px;
+    color: #fff;
+    background: #27ae60;
+}
+.wp_newsletter-tab-row,input[type=radio]{padding:5px 15px;}
+.wp_newsletter-form-table-noborder.error-table{width:80% !important;}
+.wp_newsletter-form-table-noborder.error-table tr{}
+.wp_newsletter-form-table-noborder.error-table td{text-align:left; padding:5px 15px;}
+.wp_newsletter_option large-text,textarea{margin:5px 0;}
+.wp_newsletter_service_response h4{padding:0 !important;font-weight: 600;color: #23282d;font-size: 16px; border-bottom:1px solid #ccc; margin:5px 0; position:relative;}
+.wp_newsletter_service_response h4::after {content: ''; position: absolute;right: 0;bottom: 0;background: #27ae60;width: 70px; height: 3px;}

@@ -1,0 +1,590 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fancy Facebook Comments\n"
+"POT-Creation-Date: 2018-05-20 04:54+0530\n"
+"PO-Revision-Date: 2018-05-20 04:54+0530\n"
+"Last-Translator: Team Heateor <hello@heateor.com>\n"
+"Language-Team: Jack M. Pérez <jackmperez09@gmail.com>\n"
+"Language: es_DO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:59
+msgid "Fancy Facebook Comments by Heateor"
+msgstr "Fancy comentarios de Facebook por Heateor"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:61
+msgid "Fancy Facebook Comments - General Options"
+msgstr "Fancy Facebook Comments - Opciones generales"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:61
+msgid "Fancy Facebook Comments"
+msgstr "Fancy comentarios de Facebook"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:105
+msgid "Disable Facebook Comments on this "
+msgstr "Deshabilitar los comentarios de Facebook sobre este"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:221
+msgid "Click to show help"
+msgstr "Haga clic para mostrar ayuda"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:221
+msgid "Click to hide help"
+msgstr "Haga clic para ocultar la ayuda"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:254
+msgid "Settings saved"
+msgstr "Ajustes guardados"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:254
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:288
+msgid "Add-Ons"
+msgstr "Complementos"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:289
+msgid "Support Documentation"
+msgstr "Documentación de soporte"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:290
+#: ../admin/partials/fancy-facebook-comments-options-page.php:21
+#: ../admin/partials/fancy-facebook-comments-options-page.php:31
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: ../admin/class-fancy-facebook-comments-admin.php:348
+msgid ""
+"Update \"Facebook Comments Moderation\" add-on for compatibility with "
+"current version of Fancy Facebook Comments"
+msgstr ""
+
+#: ../admin/class-fancy-facebook-comments-admin.php:357
+msgid ""
+"Update \"Facebook Comments Notifier\" add-on for compatibility with current "
+"version of Fancy Facebook Comments"
+msgstr ""
+
+#: ../admin/class-fancy-facebook-comments-admin.php:381
+#, php-format
+msgid ""
+"This plugin is GDPR compliant. You need to update the privacy policy of your "
+"website regarding the personal data this plugin saves, as mentioned <a href="
+"\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: ../admin/class-fancy-facebook-comments-admin.php:381
+msgid "Okay"
+msgstr ""
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:22
+msgid "Shortcode and Widget"
+msgstr "Código abreviado y widget"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:23
+#: ../admin/partials/fancy-facebook-comments-options-page.php:488
+msgid "FAQ"
+msgstr "Preguntas más frecuentes"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:37
+msgid "Enable Facebook Comments notification and moderation"
+msgstr "Habilitar la notificación y moderación de los comentarios de Facebook"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:45
+msgid "Comment box title"
+msgstr "Título del cuadro de comentarios"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:55
+msgid "Title to show above Facebook Comments box"
+msgstr "Título para mostrar arriba Cuadro de comentarios de Facebook"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:63
+msgid "Title text color"
+msgstr "Color del texto del título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:73
+msgid ""
+"Specify the color or hex code (example #cc78e0) of the title text to show "
+"above Facebook Comments box. Leave empty for default. You can get the hex "
+"code of the required color from <a href=\"http://www.colorpicker.com/\" "
+"target=\"_blank\">this link</a>"
+msgstr ""
+"Especifique el código de color o hexadecimal (por ejemplo, # cc78e0) del "
+"texto del título para mostrar el cuadro de comentarios de Facebook arriba. "
+"Deje vacío por defecto. Puede obtener el código hexadecimal del color "
+"requerido de <a href=\"http://www.colorpicker.com/\" target=\"_blank\"> este "
+"enlace </a>"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:81
+msgid "Font family of the Title"
+msgstr "Familia de fuentes del título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:123
+msgid "Font family of the title"
+msgstr "Familia de fuentes del título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:131
+msgid "HTML tag for Title"
+msgstr "Etiqueta HTML para el título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:150
+msgid "HTML tag to use for title text"
+msgstr "Etiqueta HTML para usar para el texto del título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:158
+msgid "Title-font size"
+msgstr "Tamaño de letra del título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:168
+msgid "Font-size of the title text"
+msgstr "Tamaño de fuente del texto del título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:176
+msgid "Title alignment"
+msgstr "Alineación del título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:180
+msgid "Left"
+msgstr "Izquierda"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:181
+msgid "Center"
+msgstr "Centrar"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:182
+msgid "Right"
+msgstr "Derecha"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:190
+msgid "Horizontal alignment of the title"
+msgstr "Alineación horizontal del título"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:198
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:208
+msgid ""
+"Specify the color or hex code (example #cc78e0) of the background of "
+"Facebook Comments interface. Leave empty for transparent. You can get the "
+"hex code of the required color from <a href=\"http://www.colorpicker.com/\" "
+"target=\"_blank\">this link</a>"
+msgstr ""
+"Especifique el color o código hexadecimal (ejemplo # cc78e0) del fondo de la "
+"interfaz de Comentarios de Facebook. Deje vacío por transparente. Puede "
+"obtener el código hexadecimal del color requerido de <a href=\"http://www."
+"colorpicker.com/\" target=\"_blank\"> este enlace </a>"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:216
+msgid "Priority for Facebook Comments to appear at front-end"
+msgstr ""
+"Prioridad para que los comentarios de Facebook aparezcan en el front-end"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:226
+msgid ""
+"Higher number causes Facebook Comments to appear below the other elements at "
+"the webpage."
+msgstr ""
+"Un número más alto hace que los comentarios de Facebook aparezcan debajo de "
+"los otros elementos en la página web."
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:237
+msgid "Enable Social Commenting at"
+msgstr "Habilitar comentario social en"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:241
+msgid "Homepage"
+msgstr "Página principal"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:253
+msgid "Category Archives"
+msgstr "Archivo de la categoría"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:255
+msgid "Archive Pages (Category, Tag, Author or Date based pages)"
+msgstr "Páginas de archivo (páginas de categoría, etiqueta, autor o fecha)"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:260
+msgid "BuddyPress activity"
+msgstr "Actividad de BuddyPress"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:262
+msgid "BuddyPress group (only at top of content)"
+msgstr "Grupo BuddyPress (solo en la parte superior del contenido)"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:268
+msgid "BBPress forum"
+msgstr "Foro BBPress"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:271
+msgid "BBPress topic"
+msgstr "Tema de BBPress"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:274
+msgid "BBPress reply"
+msgstr "Respuesta de BBPress"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:281
+msgid "After individual product at WooCommerce Shop page"
+msgstr "Después del producto individual en la página Shop de WooCommerce"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:284
+msgid "WooCommerce Product Page"
+msgstr "Página del producto WooCommerce"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:287
+msgid "WooCommerce Thankyou Page"
+msgstr "WooCommerce gracias página"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:298
+msgid "Specify the page/post groups where you want to enable Social Commenting"
+msgstr ""
+"Especifique los grupos de páginas / publicaciones en los que desea habilitar "
+"Social Commenting"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:306
+msgid "Position of Comment Box"
+msgstr "Posición del cuadro de comentario"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:310
+msgid "Top of the content"
+msgstr "Parte superior del contenido"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:312
+msgid "Bottom of the content"
+msgstr "Parte inferior del contenido"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:319
+msgid ""
+"Specify position of the Facebook comment box with respect to the content"
+msgstr ""
+"Especifique la posición del cuadro de comentarios de Facebook con respecto "
+"al contenido"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:327
+#: ../includes/class-fancy-facebook-comments-widgets.php:177
+msgid "Load comments for"
+msgstr "Cargar comentarios por"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:331
+#: ../includes/class-fancy-facebook-comments-widgets.php:179
+msgid "Url of the webpage where Facebook Comments box is placed (default)"
+msgstr ""
+"URL de la página web donde se coloca el cuadro de Comentarios de Facebook "
+"(predeterminado)"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:333
+#: ../includes/class-fancy-facebook-comments-widgets.php:180
+msgid "Url of the homepage of your website"
+msgstr "URL de la página de inicio de su sitio web"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:335
+#: ../includes/class-fancy-facebook-comments-widgets.php:181
+msgid "Custom url"
+msgstr "URL personalizada"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:343
+msgid ""
+"The absolute URL that comments posted will be permanently associated with. "
+"Stories on Facebook about comments posted, will link to this URL"
+msgstr ""
+"La URL absoluta con la que se publiquen los comentarios se asociará "
+"permanentemente. Las historias en Facebook sobre los comentarios publicados, "
+"se vincularán a esta URL"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:351
+msgid "Show Recent Facebook Comments in a Widget"
+msgstr "Mostrar comentarios recientes de Facebook en un widget"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:359
+msgid "Width"
+msgstr "Anchura"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:369
+msgid ""
+"Leave empty to auto-adjust the width. The width (in pixels) of the Comments "
+"block."
+msgstr ""
+"Deje vacío para autoajustar el ancho. El ancho (en píxeles) del bloque "
+"Comentarios."
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:377
+#: ../includes/class-fancy-facebook-comments-widgets.php:184
+msgid "Number of comments"
+msgstr "Numero de comentarios"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:387
+msgid ""
+"The number of comments to show by default. The minimum value is 1. Defaults "
+"to 10"
+msgstr ""
+"La cantidad de comentarios para mostrar de forma predeterminada. El valor "
+"mínimo es 1. Predeterminado a 10"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:395
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:399
+#: ../includes/class-fancy-facebook-comments-widgets.php:188
+msgid "Social"
+msgstr "Social"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:400
+#: ../includes/class-fancy-facebook-comments-widgets.php:189
+msgid "Reverse Time"
+msgstr "Tiempo inverso"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:401
+#: ../includes/class-fancy-facebook-comments-widgets.php:190
+msgid "Time"
+msgstr "Tiempo"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:409
+msgid "The order to use when displaying comments."
+msgstr "El orden a usar cuando se muestran comentarios."
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:417
+msgid "Recover Facebook Comments Lost After Moving to SSL/Https"
+msgstr ""
+"Recuperar los comentarios de Facebook perdidos después de pasar a SSL / Https"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:425
+#: ../includes/class-fancy-facebook-comments-widgets.php:192
+msgid "Language"
+msgstr "Idioma"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:435
+#, php-format
+msgid ""
+"Enter the code of the language you want to use to display commenting. You "
+"can find the language codes at <a href=\"%s\" target=\"_blank\">this link</"
+"a>. Leave it empty for default language(English)"
+msgstr ""
+"Ingrese el código del idioma que desea usar para mostrar comentarios. Puede "
+"encontrar los códigos de idioma en <a href=\"%s\" target=\"_blank\"> este "
+"enlace </a>. Déjalo vacío para el idioma predeterminado (Inglés)"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:443
+msgid "Delete all the options on plugin deletion"
+msgstr "Eliminar todas las opciones en la eliminación de complementos"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:453
+msgid ""
+"If enabled, plugin options will get deleted when plugin is deleted/"
+"uninstalled and you will need to reconfigure the options when you install "
+"the plugin next time."
+msgstr ""
+"Si está habilitado, las opciones del complemento se eliminarán cuando se "
+"elimine / desinstale el complemento y deberá volver a configurar las "
+"opciones cuando instale el complemento la próxima vez."
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:468
+msgid "Shortcode"
+msgstr "Código corto"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:471
+msgid "More details"
+msgstr "Más detalles"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:475
+msgid "Widget"
+msgstr "Widget"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:477
+#, php-format
+msgid ""
+"You can enable Fancy Facebook Comments widget from <a style=\"text-"
+"decoration:none\" href=\"%s\" target=\"_blank\">Appearance > Widgets</a> page"
+msgstr ""
+"Puede habilitar el widget Fancy Facebook Comments desde la página <a style="
+"\"text-decoration:none\" href=\"%s\" target=\"_blank\"> Aspecto> Widgets </a>"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:491
+msgid ""
+"How to show recent Facebook Comments from all over the website in a widget?"
+msgstr ""
+"¿Cómo se muestran los comentarios recientes de Facebook de todo el sitio web "
+"en un widget?"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:492
+msgid ""
+"How to recover the Facebook Comments lost after moving my website to SSL/"
+"Https?"
+msgstr ""
+"¿Cómo recuperar los comentarios de Facebook perdidos después de mover mi "
+"sitio web a SSL / Https?"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:493
+msgid "How to Disable Facebook Comments at Individual Posts?"
+msgstr ""
+"¿Cómo deshabilitar los comentarios de Facebook en publicaciones individuales?"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:494
+msgid "Why is my browser blocking some features of the plugin?"
+msgstr ""
+"¿Por qué mi navegador está bloqueando algunas características del "
+"complemento?"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:505
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:511
+msgid ""
+"If you can send (to hello@heateor.com) how our plugin is helping your "
+"business, we can share it on Instagram. You can also send any relevant "
+"hashtags and people to mention in the Instagram post."
+msgstr ""
+"Si puede enviar (a hello@heateor.com) cómo nuestro plugin está ayudando a su "
+"negocio, podemos compartirlo en Instagram. También puede enviar hashtags y "
+"personas relevantes para mencionar en la publicación de Instagram."
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:512
+msgid ""
+"<b>Example</b> - Blah-Blah Online Coaching teaches various programming "
+"language courses through their website. They have emerged as one of the most "
+"popular online coaching websites in the past year. Anyone can become "
+"proficient in programming language of their choice in a very easy way in no "
+"time."
+msgstr ""
+"<b> Ejemplo </ b>: Blah-Blah Online Coaching imparte varios cursos de "
+"lenguaje de programación a través de su sitio web. Han surgido como uno de "
+"los sitios web de entrenamiento en línea más populares en el último año. "
+"Cualquiera puede dominar el lenguaje de programación de su elección de una "
+"manera muy fácil en muy poco tiempo."
+
+#: ../admin/partials/fancy-facebook-comments-options-page.php:513
+msgid ""
+"@blahblahonlinecoaching proudly use #FancyFacebookComments to let visitors "
+"comment using their Facebook accounts at their website. Be sure to visit "
+"their website at blahblahonlinecoaching.com where you can browse a variety "
+"of programming language courses."
+msgstr ""
+"@blahblahonlinecoaching orgullosamente usa #FancyFacebookComments para "
+"permitir que los visitantes comenten usando sus cuentas de Facebook en su "
+"sitio web. Asegúrese de visitar su sitio web en blahblahonlinecoaching.com "
+"donde puede navegar por una variedad de cursos de lenguaje de programación."
+
+#: ../admin/partials/fancy-facebook-comments-about.php:4
+msgid "About"
+msgstr "Acerca de"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:4
+msgid "Version"
+msgstr "Version"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:6
+msgid "by"
+msgstr "por"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:7
+msgid ""
+"We are a creative team with unique ideas in mind and service in heart. We "
+"love what we do. For more info join us at"
+msgstr ""
+"Somos un equipo creativo con ideas únicas en mente y servicio en el corazón. "
+"Nos encanta lo que hacemos. Para más información únete a nosotros en"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:19
+msgid "Donate"
+msgstr "Donar"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:25
+msgid "Plugin Demo"
+msgstr "Demostración de complemento"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:31
+msgid "Translate Plugin"
+msgstr "Traducir complemento"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:37
+msgid "Add-ons"
+msgstr "Complementos"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:43
+msgid "Support Forum"
+msgstr "Foro de soporte"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:48
+msgid "Need Quick Help?"
+msgstr "Necesita ayuda rápida?"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:50
+msgid ""
+"If you <strong>have any query</strong>, need help regarding <strong>plugin "
+"setup</strong>, want <strong>custom features</strong> in the plugin or "
+"<strong>have any suggestion</strong> to improve the plugin, just drop an "
+"email at <a href=\"mailto:support@heateor.com\">support@heateor.com</a>"
+msgstr ""
+"Si <strong> tiene alguna consulta </ strong>, necesita ayuda con respecto a "
+"la <strong> configuración del complemento </ strong>, quiere <strong> "
+"funciones personalizadas </ strong> en el complemento o <strong> tiene "
+"alguna sugerencia </ strong> para mejorar el complemento, solo deje caer un "
+"correo electrónico en <a href=\"mailto:support@heateor.com\"> "
+"support@heateor.com </a>"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:55
+msgid "Testimonial"
+msgstr "Testimonio"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:57
+msgid ""
+"You can send us testimonial at <a href=\"mailto:testimonials@heateor.com"
+"\">testimonials@heateor.com</a>"
+msgstr ""
+"Puede enviarnos un testimonio a <a href=\"mailto:testimonials@heateor.com\"> "
+"testimonials@heateor.com </a>"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:62
+msgid "Support Us"
+msgstr "Apoyanos"
+
+#: ../admin/partials/fancy-facebook-comments-about.php:65
+#: ../admin/partials/fancy-facebook-comments-about.php:68
+#: ../admin/partials/fancy-facebook-comments-about.php:69
+#: ../admin/partials/fancy-facebook-comments-about.php:70
+#: ../admin/partials/fancy-facebook-comments-about.php:71
+#: ../admin/partials/fancy-facebook-comments-about.php:72
+msgid "Rate 5-star"
+msgstr "Puntúa 5 estrellas"
+
+#: ../includes/class-fancy-facebook-comments-widgets.php:50
+msgid "Fancy Facebook Comments Widget"
+msgstr "Fancy Facebook Comentarios Widget"
+
+#: ../includes/class-fancy-facebook-comments-widgets.php:51
+msgid ""
+"Fancy Facebook Comments widget. Enable Facebook Comments box in the widget "
+"area of your choice."
+msgstr ""
+"Elegante widget de comentarios de Facebook. Habilite el cuadro Comentarios "
+"de Facebook en el área de widgets que elija."
+
+#: ../includes/class-fancy-facebook-comments-widgets.php:162
+msgid "Before widget content:"
+msgstr "Antes del contenido del widget:"
+
+#: ../includes/class-fancy-facebook-comments-widgets.php:164
+msgid "Title"
+msgstr "Título"
+
+#: ../includes/class-fancy-facebook-comments-widgets.php:166
+msgid "HTML Tag for Title"
+msgstr "Etiqueta HTML para el título"
+
+#: ../includes/class-fancy-facebook-comments-widgets.php:186
+msgid "Order By"
+msgstr "Ordenar por"
+
+#: ../includes/class-fancy-facebook-comments-widgets.php:194
+msgid "After widget content"
+msgstr "Después del contenido del widget"
